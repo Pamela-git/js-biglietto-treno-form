@@ -57,6 +57,12 @@ label {
 
 .info_ {
   text-align: center;
+  display: none;
+}
+
+.info_block {
+  display: block;
+  text-align: center;
 }
 
 .container-flex {
@@ -73,12 +79,13 @@ label {
 }
 
 #return_ {
-  background: linear-gradient(to bottom, #ffffff 0%, #ffcccc 100%);
-  margin: 10px 10px;
-  padding: 10px;
+
 }
 
 .invio, .nullo {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffcccc 100%);
+  margin: 10px 10px;
+  padding: 10px;
   transition: transform 0.1s;
 }
 
