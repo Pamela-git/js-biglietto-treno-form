@@ -55,15 +55,15 @@ label {
 
 /* sezione dx informazioni */
 
-.info_ {
+#info_ {
   text-align: center;
   display: none;
 }
 
-.info_block {
+/* .info_block {
   display: block;
   text-align: center;
-}
+} */
 
 .container-flex {
   display: flex;
