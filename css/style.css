@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lemonada', cursive;
+}
+
+/* sezione header */
+#home_ {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffcccc 100%);
+}
+
+#home_ .navbar-default{
+  background: linear-gradient(to bottom, #ffffff 0%, #ffcccc 100%);
+  border-radius: 0;
+  border: 1px solid black;
+  margin-bottom: 0px;
+  color: white;
+}
+
+#home_ .navbar-default .navbar-brand {
+  color: black;
+}
+
+#home_ .navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+/* sezione principale */
+h3 {
+  font-weight: bold;
+}
+
+/* sezione sx tariffa */
+.titolo {
+  text-align: center;
+}
+
+#prezzo {
+  color: orange;
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+}
+
+.form_ {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* sezione dx informazioni */
+
+.info_ {
+  text-align: center;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.info-nome, .offerta, .Codice, .Carrozza, .Costo {
+  width: 20%;
+}
+
+#bottone {
+  text-align: center;
+}
+
+#return_ {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffcccc 100%);
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+.invio, .nullo {
+  transition: transform 0.1s;
+}
+
+.invio:hover {
+  color: orange;
+  transform: scale(1.1);
+}
+
+.nullo:hover {
+  color: orange;
+  transform: scale(1.1);
+}
