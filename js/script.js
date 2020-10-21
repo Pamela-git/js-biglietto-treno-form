@@ -32,11 +32,11 @@ btgenera.addEventListener('click',
   var tariffaanziani = (tariffa / 100 * 40);
 
   // definire condizioni in base all'età per calcolo biglietto
-  if (eta === "Minorenne (0-17)") {
+  if (eta === "Minorenne") {
     tariffa = tariffa - tariffaminorenne;
-  } else if (eta === "Anziano (66+)") {
+  } else if (eta === "Over65") {
     tariffa = tariffa - tariffaanziani;
-  } else if (eta === "Adulto (18 - 65)") {
+  } else if (eta === "Adulto") {
     tariffa = tariffa;
   }
 
@@ -50,11 +50,11 @@ btgenera.addEventListener('click',
   nomeps.innerHTML = inputnome.value;
 
   // parte sconto con condizioni
-  if (eta === "Minorenne (0-17)") {
-    sconto.innerHTML = inputeta.value + "Hai diritto al 20% di sconto " + tariffaminorenne + "Euro";
-  } else if (eta === "Anziano (66+)") {
-    sconto.innerHTML = inputeta.value + "Hai diritto al 40% di sconto " + tariffaanziani + "Euro";
-  } else if (eta === "Adulto (18 - 65)") {
+  if (eta === "Minorenne") {
+    sconto.innerHTML = "Hai diritto al 20% di sconto " + tariffaminorenne + "Euro";
+  } else if (eta === "Over65") {
+    sconto.innerHTML = "Hai diritto al 40% di sconto " + tariffaanziani + "Euro";
+  } else if (eta === "Adulto") {
     sconto.innerHTML = "Non hai diritto a nessuno sconto";
   }
 
