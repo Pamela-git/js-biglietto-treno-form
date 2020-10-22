@@ -45,7 +45,7 @@ btgenera.addEventListener('click',
 
   cp.innerHTML = (Math.floor(Math.random() * 100000) + 90000);
 
-  posto.innerHTML = (Math.floor(Math.random() * 100) + 1);
+  posto.innerHTML = (Math.floor(Math.random() * 10) + 1);
 
   nomeps.innerHTML = inputnome.value;
 
