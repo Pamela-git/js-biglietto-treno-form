@@ -65,4 +65,8 @@ btgenera.addEventListener('click',
 btannulla.addEventListener('click',
  function() {
    info.style.display= "none";
+
+   var form = document.getElementById("form_");
+
+   form.reset();
 } );
